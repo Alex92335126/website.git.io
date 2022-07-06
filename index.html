@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/0f294bf505.js" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+/>
+    <title>Alex Ng Site</title>
+</head>
+
+<body>
+    <script>
+        AOS.init()
+    </script>
+    
+    <header>
+        <div class="header-name">
+            <img class="doge-img" width="60" height="60" src="https://i.pinimg.com/originals/c8/55/ae/c855aea64c62ef90a746df8d1670b017.png" alt="doge">
+            <h3>Alex Ng</h3>
+        </div>
+        <div class="nav-bar-text">
+            <h4>
+                About Me
+            </h4>    
+            <h4>
+                Interests
+            </h4>
+            <h4>
+                <a href="contact-me.html">
+                    <button class="contact-me">
+                        Contact Me
+                    </button>
+                </a>
+            </h4>
+        </div>
+    </header>
+    <div class="section1">
+        <div class="section-container">
+            <div id="player-overlay">
+                <video class="videoInsert" src="./IMG_0920_2.mp4" controls autoplay loop mute>
+                    <!-- <source src="./IMG_0920.MOV" type="video/mp4"> -->
+                </video>
+            </div>
+            <h2>
+                👋 Hi! I am Alex from Hong Kong. I am teamplayer, open minded and dedicated. <br/>
+                To be part of an organization where I can share my capbilities in efficiency, communication and work experience to achieve company goals. 👾    
+            </h2>
+        </div>
+    </div>
+    <div class="section2">
+        <h1>Interests</h1>
+        <div class="interest-container">
+            <div class="interest-item">
+                <h2>Blockchain</h2>
+                <div class="interest-image" data-aos="fade-right" data-aos-duration="3000">
+                    <img class="interest-image" src="images/PngItem_1987443.png" alt="">
+                </div>
+            </div>
+            <div class="interest-item">
+                <h2>Mountain Biking</h2>
+                <div class="interest-image" data-aos="flip-up" data-aos-duration="3000">
+                    <img class="interest-image" src="https://builder.santacruzbicycles.com/sites/default/files/builder/MY22.5_Megatower_CC_XO1_Coil_Blue.png" alt="">
+                </div>
+            </div>
+            <div class="interest-item">
+                <h2>Badminton</h2>
+                <div class="interest-image"  data-aos="fade-left" data-aos-duration="3000">
+                    <img class="interest-image" src="images/toppng.com-badminton-birdie-white-460x362.png" alt="">
+                </div>
+            </div>
+            <div class="interest-item">
+                <h2>Basketball</h2>
+                    <i class="fa-solid fa-basketball animate__animated animate__bounce animate__faster animate__infinite "
+                    style="font-size: 180px; color: orange"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section2b">
+        <p>Gotta Catch Them All</p>
+        <div id="poke-container">
+            <img src="" class="snorlax large-img">
+            <img src="" class="dragonite large-img">
+        </div>
+        <button id="get-random">
+            Click Me for Random Poke
+        </button>
+        <div class="random-poke-container">
+            <img src="" class="random-pokemon large-img">
+            <div class="random-poke-name-container">
+                <div class="random-poke-name"></div>
+                <div class="random-poke-number"></div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="section3">
+        <h1>Contact me</h1>
+        <div class="contact-container">
+            <div class="contact-item">
+                <ul>
+                    <li>
+                        <p class="my-email">Email: <span id="email-address" class=""></span></p>
+                    </li>
+                    <li>
+                        <p>Github: <span id="github-add"></span></p>
+                    </li>
+                    <li>
+                        <p>Linkedin: www.linkin.com/alex <span id="linkedin-add"></span></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact-item">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29512.55604175983!2d114.18206338610504!3d22.38873705775848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340406493aeab213%3A0x7519b44385cb443a!2sSha%20Tin!5e0!3m2!1sen!2shk!4v1655393239248!5m2!1sen!2shk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+  ></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+</body>
+</html>
+
